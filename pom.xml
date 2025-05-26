@@ -23,6 +23,7 @@
         <module>containers</module>
         <module>jvminsight</module>
         <module>wolfram</module>
+        <module>google</module>
     </modules>
 
     <url>https://github.com/quarkiverse/quarkus-mcp-servers</url>

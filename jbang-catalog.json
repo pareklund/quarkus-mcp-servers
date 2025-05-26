@@ -32,6 +32,10 @@
     "jvminsight": {
       "script-ref": "io.quarkiverse.mcp.servers:mcp-server-jvminsight:RELEASE@fatjar",
       "java": "17+"
+    },
+    "google": {
+      "script-ref": "io.quarkiverse.mcp.servers:mcp-server-google:RELEASE@fatjar",
+      "java": "17+"
     }
   },
   "templates": {
