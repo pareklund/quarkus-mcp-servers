@@ -38,7 +38,6 @@ public class CredentialLoader {
     Credential loadCredential() throws IOException, GeneralSecurityException {
         LOGGER.info("Loading stored credentials from: " + CREDENTIALS_FOLDER.getAbsolutePath());
         var flow = createFlow();
-        // "user" is a default ID used for single-user apps
         return flow.loadCredential("user");
     }
 
